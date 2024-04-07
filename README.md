@@ -18,13 +18,19 @@ git clone <link_of_this_repository>
 
 3. Export your GitHub personal access token to a shell variable named `token`:
 
-  export token="your_personal_access_token"
+   '''
+   export token="your_personal_access_token"
+   '''
 
-4. Give execute permission to the shell script:
-  chmod +x list-users.sh (chmod 777 list-users.sh)
+5. Give execute permission to the shell script:
+   '''
+   chmod +x list-users.sh (chmod 777 list-users.sh)
+   '''
 
-5. Run the shell script with the organization name and repository name as arguments:
-  ./list-users.sh organization_name repository_name
+7. Run the shell script with the organization name and repository name as arguments:
+   '''
+   ./list-users.sh organization_name repository_name
+   '''
 
 Replace `organization_name` and `repository_name` with the respective values for the GitHub organization and repository you want to retrieve information for.
 
